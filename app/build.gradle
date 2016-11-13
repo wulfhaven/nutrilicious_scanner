@@ -5,7 +5,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "se.nutrilicious.scanner.nutriliciousscanner"
+        applicationId "se.nutrilicious.scanner"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
@@ -20,7 +20,7 @@ android {
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
-        test.java.srcDirs += 'src/androidTest/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
         test.java.srcDirs += 'src/test/kotlin'
     }
 }
